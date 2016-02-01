@@ -23,7 +23,11 @@ end
 
 
 group :test do
+  # Create customizable Minitest output formats.
   gem 'minitest-reporters'
+  # MiniBacktrace allows you to take advantage of the Rails.backtrace_cleaner when using MiniTest.
   gem 'mini_backtrace'
+  # Guard::Minitest allows to automatically & intelligently launch tests with the minitest framework when files are modified.
+  gem 'guard'
   gem 'guard-minitest'
 end
