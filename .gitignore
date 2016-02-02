@@ -18,3 +18,7 @@
 
 # Ignore Spring Files
 /spring/*.pid
+
+# Ignore Vagrant Files
+.vagrant
+cookbooks/
