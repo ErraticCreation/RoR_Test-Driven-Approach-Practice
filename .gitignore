@@ -22,3 +22,6 @@
 # Ignore Vagrant Files
 .vagrant
 cookbooks/
+
+# Ignore RubyMine Files
+.idea
